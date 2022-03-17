@@ -47,9 +47,9 @@ git clone https://github.com/dracula/zsh.git
 ##	移动文件到zsh配置
 
 ```bash
-cp zsh/dracula.zsh-theme .oh-my-zsh/themes
+cp zsh/dracula.zsh-theme ~/.oh-my-zsh/themes
 
-cp -r zsh/lib/ .oh-my-zsh/themes
+cp -r zsh/lib/ ~/.oh-my-zsh/themes
 ```
 
 ##	更改zsh主题为dracula
@@ -59,6 +59,10 @@ vim ~/.zshrc
 
 # 更改内容
 ZSH_THEME="dracula"
+
+
+# 更新配置
+source ~/.zshrc
 ```
 
 
@@ -75,6 +79,9 @@ plugins=(
 	git
 	zsh-syntax-highlighting
 )
+
+# 更新配置
+source ~/.zshrc
 ```
 
 ##	命令补全
@@ -90,6 +97,9 @@ plugins=(
 	zsh-syntax-highlighting
 	zsh-autosuggestions
 )
+
+# 更新配置
+source ~/.zshrc
 ```
 
 
