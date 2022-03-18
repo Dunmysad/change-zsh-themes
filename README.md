@@ -1,4 +1,4 @@
-###	可能会出现的错误
+###	Centos 可能会出现的错误
 
 ![](./images/image-20220317142957328.png)
 
@@ -22,7 +22,7 @@ yum install -y zsh
 ##	安装oh-my-zsh
 
 ```bash
-# curl 安装方式
+# curl
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # or wget
