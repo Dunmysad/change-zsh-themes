@@ -24,6 +24,12 @@ yum install -y zsh
 ```bash
 # curl 安装方式
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# or wget
+sh -c "$(wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# or git
+git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ```
 
 ![](./images/oh-my-zsh.png)
