@@ -40,6 +40,21 @@ sh -c "$(wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tool
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ```
 
+设置zsh主题为默认
+
+```bash
+# 查看正在使用的主题
+echo #SHELL
+
+# 查看都有哪些主题
+cat /etc/shells
+
+# 设置zsh为默认
+chsh -s /bin/zsh
+```
+
+
+
 ![](./images/oh-my-zsh.png)
 
 ##	查看oh-my-zsh自带的主题
@@ -62,7 +77,6 @@ git clone https://github.com/dracula/zsh.git
 
 ```bash
 cp zsh/dracula.zsh-theme ~/.oh-my-zsh/themes
-
 cp -r zsh/lib/ ~/.oh-my-zsh/themes
 ```
 
