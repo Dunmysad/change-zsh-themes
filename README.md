@@ -134,4 +134,4 @@ source ~/.zshrc
 
 #	最终效果
 
-![](./images/done.png)
+![](./images/themes.png)
