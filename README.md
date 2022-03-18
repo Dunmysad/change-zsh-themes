@@ -19,6 +19,14 @@ yum install -y zsh
 
 ![](./images/QQ20220317-143609@2x.png)
 
+##	安装git
+
+```bash
+yum install git
+```
+
+
+
 ##	安装oh-my-zsh
 
 ```bash
