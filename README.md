@@ -41,7 +41,7 @@ cd ~/.oh-my-zsh/themes && ls
 ```
 
 ![](./images/themes.png)
-
+如果更换`oh-my-zsh`自带主题，可以修改`ZSH_THEME`字段值为以`.zsh-theme`后缀文件的文件名，例如`ZSH_THEME="cloud"`
 ##	下载更换 Dracula 主题
 
 > ​		[Dracula->zsh](https://draculatheme.com/zsh)
